@@ -1,13 +1,17 @@
 {
-  "name": "ejs-challenge",
+  "name": "Daily-Journal-With-DB",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "author": "Toby Conn",
   "license": "ISC",
+  "engines": {
+      "node": "16.13.1"
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
